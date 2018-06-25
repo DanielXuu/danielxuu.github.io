@@ -339,13 +339,22 @@
               <h2 class="section_title contact_section_title"><a href="#"><span class="icon icon-envelope-alt"></span><span class="section_name">Contacts</span></a><span class="section_icon"></span></h2>
             </div>
             <div class="section_body contact_section_body">
-              
-              <div class="profile_row name"> <span class="th">Name: &nbsp</span><span class="td">Zhenqiang Xu</span> </div>
+              <div id="googlemap_data">
+                <div id="sc_googlemap" style="width:100%;height:350px;" class="sc_googlemap"></div>
+                <div class="add_info">
+                  <div class="profile_row header "> Contact info </div>
+                  <div class="profile_row address"> <span class="th">Address</span><span class="td"></span> </div>
+                  <div class="profile_row phone"> <span class="th">Phone</span><span class="td"></span> </div>
+                  <div class="profile_row email"> <span class="th">Email</span><span class="td"></span> </div>
+                  <div class="profile_row website"> <span class="th">Website</span><span class="td"></span> </div>
+                </div>
+              </div>
+              <!-- <div class="profile_row name"> <span class="th">Name: &nbsp</span><span class="td">Zhenqiang Xu</span> </div>
               <div class="profile_row address"> <span class="th">Address: &nbsp</span><span class="td">3333 Forbes Ave, Pittsburgh, PA 15213, USA</span> </div>
               <div class="profile_row phone"> <span class="th">Phone: &nbsp</span><span class="td">+1-412-888-9322</span> </div>
               <div class="profile_row email"> <span class="th">Email: &nbsp</span><span class="td">MY_PITT_ID@pitt.edu where MY_PITT_ID = zhx31</span> </div>
               <div class="profile_row website"> <span class="th">Website: &nbsp</span><span class="td"><a target="_blank" href="http://www.danielxuzh.com">http://www.danielxuzh.com</a></span> </div>
-              
+               -->
          
             </div>
             <!-- .section_body --> 
@@ -376,10 +385,11 @@
 <script type="text/javascript" src="js/jquery.cookie.js"></script> 
 <script type="text/javascript" src="js/mediaelement.min.js"></script> 
 <script type="text/javascript" src="js/jquery.qrcode-0.6.0.min.js"></script> 
-<!-- <script type="text/javascript" src="js/googlemap_init.js"></script>  -->
 <script type="text/javascript" src="js/jquery.easing.js"></script> 
 <script type="text/javascript" src="js/jquery.reject.js"></script>
 
+<script type="text/javascript" src="js/googlemap_init.js"></script> 
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script> 
 <script type="text/javascript" src="js/utils.js"></script> 
 <script type="text/javascript" src="js/lib.js"></script>
 </body>
